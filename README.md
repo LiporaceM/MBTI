@@ -9,7 +9,7 @@ O aplicativo foi feito baseado na tipologia de Myers-Briggs e com elementos visu
 
 
 
-![Video do App](https://github.com/LiporaceM/MBTI/assets/108703224/2f9cc2f3-61e7-4837-938a-9145d733c768)
+https://github.com/LiporaceM/MBTI/assets/108703224/2f9cc2f3-61e7-4837-938a-9145d733c768
 
 ## Descrição
 
