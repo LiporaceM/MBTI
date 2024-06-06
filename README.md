@@ -1,4 +1,4 @@
-#Esse é um aplicativo para android feito para a disciplina de Desenvolvimente Mobile
+Esse é um aplicativo para android feito para a disciplina de Desenvolvimente Mobile
 O aplicativo foi feito baseado na tipologia de Myers-Briggs e com elementos visuais do site www.16personalities.com
 
 
