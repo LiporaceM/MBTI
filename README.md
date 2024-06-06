@@ -27,5 +27,5 @@ Este aplicativo permite que os usuários respondam a um questionário baseado na
 1. **Clone o repositório:**
    ```sh
    git clone https://github.com/LiporaceM/MBTI.git
-2.Abra o projeto no Android Studio.
-3.Compile e execute o aplicativo em um emulador ou dispositivo físico.
+2. **Abra o projeto no Android Studio.**
+3. **Compile e execute o aplicativo em um emulador ou dispositivo físico.**
