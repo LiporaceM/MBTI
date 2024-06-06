@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Top border (Roxo) -->
+    <LinearLayout
+        android:id="@+id/topBorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/intj"
+            android:layout_marginHorizontal="5dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/intp"
+            android:layout_marginHorizontal="5dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/entj"
+            android:layout_marginHorizontal="5dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/entp"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <!-- Left border (Verde) -->
+    <LinearLayout
+        android:id="@+id/leftBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="7dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/infj"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/infp"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/enfj"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/enfp"
+            android:layout_marginVertical="7dp" />
+    </LinearLayout>
+
+    <!-- Right border (Amarelo) -->
+    <LinearLayout
+        android:id="@+id/rightBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/istp"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/isfp"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/estp"
+            android:layout_marginVertical="7dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/esfp"
+            android:layout_marginVertical="7dp" />
+    </LinearLayout>
+
+    <!-- Bottom border (Azul) -->
+    <LinearLayout
+        android:id="@+id/bottomBorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/istj"
+            android:layout_marginHorizontal="2dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/isfj"
+            android:layout_marginHorizontal="2dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/estj"
+            android:layout_marginHorizontal="2dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/esfj"
+            android:layout_marginHorizontal="2dp" />
+    </LinearLayout>
+
+    <!-- Main content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bem vindo ao Teste de MBTI"
+            android:textColor="#8F72E9"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/englishButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:backgroundTint="#738C56"
+            android:text="English"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/portugueseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EDDC47"
+            android:text="Português"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#73BBC5"
+            android:text="Start MBTI Quiz"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</RelativeLayout>

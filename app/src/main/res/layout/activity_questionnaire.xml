@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionnaireActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- E-I Questions -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer to work in groups or alone?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Groups (E)"/>
+            <RadioButton
+                android:id="@+id/answer1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alone (I)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer socializing with people or spending time alone?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Socializing (E)"/>
+            <RadioButton
+                android:id="@+id/answer2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alone (I)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you feel energized by social interactions or by spending time alone?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Social interactions (E)"/>
+            <RadioButton
+                android:id="@+id/answer3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alone (I)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you enjoy being the center of attention or observing from the sidelines?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Center of attention (E)"/>
+            <RadioButton
+                android:id="@+id/answer4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Observing (I)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you speak more often than you listen or listen more often than you speak?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak more often (E)"/>
+            <RadioButton
+                android:id="@+id/answer5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listen more often (I)"/>
+        </RadioGroup>
+
+        <!-- S-N Questions -->
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you focus more on facts or possibilities?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facts (S)"/>
+            <RadioButton
+                android:id="@+id/answer6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Possibilities (N)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you value realism or imagination more?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Realism (S)"/>
+            <RadioButton
+                android:id="@+id/answer7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imagination (N)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer practical or theoretical information?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Practical (S)"/>
+            <RadioButton
+                android:id="@+id/answer8_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theoretical (N)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you trust experience more than instincts?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience (S)"/>
+            <RadioButton
+                android:id="@+id/answer9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instincts (N)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you focus more on what is present or what could be?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer10_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is present (S)"/>
+            <RadioButton
+                android:id="@+id/answer10_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What could be (N)"/>
+        </RadioGroup>
+
+        <!-- T-F Questions -->
+        <TextView
+            android:id="@+id/question11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you make decisions with your head or your heart?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer11_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Head (T)"/>
+            <RadioButton
+                android:id="@+id/answer11_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heart (F)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you value logic over emotions?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer12_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logic (T)"/>
+            <RadioButton
+                android:id="@+id/answer12_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emotions (F)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer justice over mercy?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Justice (T)"/>
+            <RadioButton
+                android:id="@+id/answer13_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercy (F)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you focus more on fairness or harmony?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer14_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fairness (T)"/>
+            <RadioButton
+                android:id="@+id/answer14_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harmony (F)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you find it more important to be just or kind?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer15_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just (T)"/>
+            <RadioButton
+                android:id="@+id/answer15_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kind (F)"/>
+        </RadioGroup>
+
+        <!-- J-P Questions -->
+        <TextView
+            android:id="@+id/question16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer a planned or spontaneous lifestyle?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer16_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Planned (J)"/>
+            <RadioButton
+                android:id="@+id/answer16_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spontaneous (P)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you like to have things decided or remain open to new information?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer17_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decided (J)"/>
+            <RadioButton
+                android:id="@+id/answer17_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open to new information (P)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer being organized or flexible?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer18_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organized (J)"/>
+            <RadioButton
+                android:id="@+id/answer18_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flexible (P)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you prefer schedules or go with the flow?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer19_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedules (J)"/>
+            <RadioButton
+                android:id="@+id/answer19_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go with the flow (P)"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you like to have clear plans or adapt as you go?"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+        <RadioGroup
+            android:id="@+id/answersGroup20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <RadioButton
+                android:id="@+id/answer20_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear plans (J)"/>
+            <RadioButton
+                android:id="@+id/answer20_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adapt as you go (P)"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
