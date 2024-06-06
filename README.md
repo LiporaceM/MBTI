@@ -6,7 +6,10 @@ O aplicativo foi feito baseado na tipologia de Myers-Briggs e com elementos visu
 
 ## Vídeo sobre o App
 
-![Video do App](https://github.com/LiporaceM/MBTI/assets/108703224/cee4af65-3b56-475b-94a7-f58f3af1801d)
+
+
+
+![Video do App](https://github.com/LiporaceM/MBTI/assets/108703224/2f9cc2f3-61e7-4837-938a-9145d733c768)
 
 ## Descrição
 
@@ -15,7 +18,7 @@ Este aplicativo permite que os usuários respondam a um questionário baseado na
 ## Funcionalidades
 
 - Questionário baseado na tipologia de Myers-Briggs.
-- Resultados com descrições detalhadas.
+- Resultados com descrições detalhadas baseado na personalidade selecionada.
 - Interface com elementos visuais do site 16Personalities.
 - Suporte para idiomas português e inglês.
 
